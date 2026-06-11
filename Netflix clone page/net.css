@@ -1,0 +1,58 @@
+h1{
+    color: #E50914;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    padding: 10px;
+    margin: 50px 50px;
+     transition: 0.7s;
+    
+}
+body{
+    background-image:linear-gradient(rgb(0, 0,0,0.7),
+                        rgba(0,0,0,0.7)),url(netflix.png);
+    background-size: cover;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+h3{
+    color: azure;
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    color: azure;
+    text-align: center;
+
+}
+.email{
+    text-align: center;
+    font-size: 30px;
+    border: #E50914;
+    border-radius: 10px;
+    
+   
+}
+button{
+    padding: 10px 20px;
+    background: rgb(216, 3, 3);
+    color:aliceblue;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background: black;
+}
+.signin{
+    position:absolute;
+    top: 20px;
+    right: 50px;
+
+
+}
+
+
+
