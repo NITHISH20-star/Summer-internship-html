@@ -1,0 +1,122 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+   
+
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.7s;
+   
+}
+h2{
+    color: rgb(255, 255, 156);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 10px;
+
+}
+.card{
+   
+    width: 500px;
+    
+    background: rgb(110, 94, 94);
+    padding: 20px;
+    border:2px solid black;
+    border-radius: 23px;
+    margin: 20px;
+    text-align:start;
+    transition: 0.7s;
+
+}
+.card img{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card:hover{
+    transform: translate(50px);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.221);
+}
+.price{
+    opacity: 0;
+    transform: translate(20px);
+    transition: 0.3s;
+}
+.card:hover .price{
+    opacity: 1;
+    transform: translate(0);
+}
+.hey{
+     width: 500px;
+   
+     
+    background: rgb(110, 94, 94);
+    padding: 20px;
+    border:2px solid black;
+    border-radius: 23px;
+    margin: 20px;
+    text-align:start;
+    transition: 0.7s;
+
+}
+.hey:hover{
+    transform: translate(50px);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.221)
+}
+.hey img{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.price{
+    opacity: 0;
+    transform: translate(20px);
+    transition: 0.3s;
+}
+.hey:hover .price{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.shit{
+     width: 500px;
+   
+     
+    background: rgb(110, 94, 94);
+    padding: 20px;
+    border:2px solid black;
+    border-radius: 23px;
+    margin: 20px;
+    text-align:start;
+    transition: 0.7s;
+
+}
+.shit:hover{
+    transform: translate(50px);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.221)
+}
+.shit img{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.price{
+    opacity: 0;
+    transform: translate(20px);
+    transition: 0.3s;
+}
+.shit:hover .price{
+    opacity: 1;
+    transform: translate(0);
+}
