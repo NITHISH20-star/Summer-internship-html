@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subscription Plans</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.container{
+    width:90%;
+    margin:40px auto;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:300px;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.price{
+    font-size:32px;
+    color:orange;
+    margin:15px 0;
+}
+
+ul{
+    list-style:none;
+    margin:20px 0;
+}
+
+ul li{
+    margin:10px 0;
+}
+
+button{
+    background:orange;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkorange;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Subscription Plans</h1>
+    <p>Choose a plan that suits you</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Free Plan</h2>
+        <div class="price">₹0</div>
+
+        <ul>
+            <li>Access Discussions</li>
+            <li>Create Posts</li>
+            <li>Reply to Discussions</li>
+        </ul>
+
+        <button>Get Started</button>
+    </div>
+
+    <div class="card">
+        <h2>Premium Plan</h2>
+        <div class="price">₹99/month</div>
+
+        <ul>
+            <li>Everything in Free</li>
+            <li>Priority Support</li>
+            <li>Premium Badge</li>
+            <li>Ad-Free Experience</li>
+        </ul>
+
+        <button>Subscribe</button>
+    </div>
+
+    <div class="card">
+        <h2>Pro Plan</h2>
+        <div class="price">₹199/month</div>
+
+        <ul>
+            <li>Everything in Premium</li>
+            <li>Exclusive Content</li>
+            <li>Unlimited Discussions</li>
+            <li>Advanced Features</li>
+        </ul>
+
+        <button>Subscribe</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Community Discussion Forum | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
