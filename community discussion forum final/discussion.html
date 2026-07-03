@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discussion Forum</title>
+<link rel="stylesheet" href="Discussionpage.css">
+
+
+</head>
+
+<body>
+   
+    <script src="discussion.js"></script>
+
+
+<header>
+    <h1>Community Discussion Forum</h1>
+    <p>Share Ideas and Connect with Others</p>
+</header>
+
+
+<div class="container">
+
+    <div class="post-form">
+        <h2>Create Discussion</h2>
+
+        <input type="text" id="title" placeholder="Discussion Title">
+
+        <textarea id="content" rows="5"
+        placeholder="Share your thoughts here..."></textarea>
+
+        <button onclick="postDiscussion()">Post Discussion</button>
+    </div>
+
+    <h2>Recent Discussions</h2>
+    <div id="discussionList">
+
+    <div class="post">
+        <h3>How to Learn Cricket?</h3>
+        <p>Can anyone suggest a roadmap for beginners?</p>
+        <button class="reply-btn" onclick="reply(this)">Reply</button>
+    </div>
+     <div class="post">
+            <h3>how to learn SQL??</h4>
+            <p>can anyone suggest a roadmap????</p>
+           <button class="reply-btn" onclick="reply(this)">Reply</button>
+        </div>
+        <div class="post">
+            <h3>which game is best??</h4>
+            <p>RDR or uncharted????</p>
+           <button class="reply-btn" onclick="reply(this)">Reply</button>
+        </div>
+        <div class="post">
+            <h3>how to learn python</h4>
+            <p>can anyone suggest a roadmap????</p>
+            <button class="reply-btn" onclick="reply(this)">Reply</button>
+        </div>
+        <div class="post">
+            <h3>what is illumunati</h4>
+            <p>can anyone explain it????</p>
+            <button class="reply-btn" onclick="reply(this)">Reply</button>
+        </div>
+
+        <div class="post">
+            <h3>what is motherboard</h4>
+            <p>can anyone explain it</p>
+            <button class="reply-btn" onclick="reply(this)">Reply</button>
+        </div>
+
+    <div class="post">
+        <h3>Best Python Resources</h3>
+        <p>Looking for free websites and courses.</p>
+       <button class="reply-btn" onclick="reply(this)">Reply</button>
+    </div>
+
+    <div class="post">
+        <h3>Data Analytics Career</h3>
+        <p>What skills are required to become a Data Analyst?</p>
+        <button class="reply-btn" onclick="reply(this)">Reply</button>
+    </div>
+
+</div>
+    </div>
+</body>
+</html>
